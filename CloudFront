@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2021-07-28T07:00:21.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" version="14.9.2" etag="zOPacDOd3Lmpa4n0W978" type="github"><diagram id="ZRisVifTWQlCOth3vPcP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-28T07:10:00.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="uJS2dHihE5Hm77UB3-Ow" version="14.9.2" type="github">
+  <diagram id="ZRisVifTWQlCOth3vPcP" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="268" width="78" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-2" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-15">
+          <mxGeometry width="78" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-14" value="Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-15">
+          <mxGeometry x="14" y="76" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="304" y="267" width="90" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-11" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.edge_location;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-16">
+          <mxGeometry x="6" y="12.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="430" width="80" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-3" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3334B9;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cache_node;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-17">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-13" value="Local Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-17">
+          <mxGeometry y="78" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-18" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="Wiol5-EaLh4dn5aCU7hL-11" target="Wiol5-EaLh4dn5aCU7hL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="351" y="180" />
+              <mxPoint x="79" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-20" value="GET /beach.jpg?size=300x300 HTTP/1.1&lt;br&gt;User-Agent: Mozilla/4.0&lt;br&gt;Host: example.com&lt;br&gt;Accept-Encoding: gzip, deflate" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-21" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=-0.014;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Wiol5-EaLh4dn5aCU7hL-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="560" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-22" value="2. Forward request &lt;br&gt;to your Origin" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="285" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="580" y="270" width="147.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-23">
+          <mxGeometry width="147.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-4" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-23">
+          <mxGeometry x="27.5" y="42" width="75" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-5" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-23">
+          <mxGeometry x="37.5" y="140" width="45" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-6" value="HTTP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-23">
+          <mxGeometry x="97.5" y="169" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-8" value="or" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-23">
+          <mxGeometry x="107.5" y="120" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-9" value="S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-23">
+          <mxGeometry x="107.5" y="71" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Origin&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Wiol5-EaLh4dn5aCU7hL-23">
+          <mxGeometry x="47.5" y="10" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-12" value="Edge Location" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="304" y="357.5" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-25" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.513;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Wiol5-EaLh4dn5aCU7hL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="350" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-26" value="Includes &lt;font color=&quot;#3333ff&quot;&gt;Query Strings&lt;/font&gt;&lt;br&gt;And &lt;font color=&quot;#00cc00&quot;&gt;Request Headers&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="327.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-27" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-28" value="3. Write to Edge Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wiol5-EaLh4dn5aCU7hL-30" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;CloudFront at a high level&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="240" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
