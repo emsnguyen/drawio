@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-08-14T06:18:35.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" version="14.9.6" etag="nCD9UO7FimZyRt3vWnL8" type="github"><diagram id="UK_N2VGyDS1qRxKjLSil">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-14T06:23:51.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="KwYOF_GTae5Tax65yg6O" version="14.9.6" type="github">
+  <diagram id="UK_N2VGyDS1qRxKjLSil" name="Page-1">
+    <mxGraphModel dx="946" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-2" value="Code" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-3" value="Build" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-4" value="Test" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-5" value="Deploy" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-6" value="Provision" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="707" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-7" value="AWS&lt;br&gt;CodeCommit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-8" value="Github&lt;br&gt;or 3rd Party&lt;br&gt;code repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-9" value="AWS CodeBuild" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-10" value="Jenkins CI&lt;br&gt;or 3rd Party CI servers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-11" value="AWS Elastic Beanstalk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-12" value="AWS CodeDeploy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-14" value="User Managed&lt;br&gt;EC2 Instances Fleet&lt;br&gt;(CloudFormation)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-70" width="20" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="r9Tb1PmshPNsDS3lG56Q-16" value="Orchestrate: AWS CodePipeline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="285" y="360" width="290" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
